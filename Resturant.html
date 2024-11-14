@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VI Café</title>
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px; 
+            padding-bottom: 60px; 
+            scroll-behavior: smooth;
+        }
+        .navbar {
+            background-color: #f8f9fa; 
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: #000; 
+        }
+        .navbar-nav {
+            margin-left: auto;
+        }
+        .jumbotron {
+            background-color: #f8f9fa;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .footer {
+            padding: 1rem;
+            background-color: #f1f1f1;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        #head, #home, #menu, #pricing, #contact {
+            background-size: cover;
+            background-position: center;
+            color: rgb(7, 0, 0);
+            padding: 2rem 1rem;
+        }
+        #head{
+            background-image: url("images/resback.jpg");
+            color: rgb(248, 248, 248);
+        }
+        #home {
+            background-image: url("images/HomeBack.png");
+        }
+        #menu {
+            background-image: url("images/MenuBack.webp");
+        }
+        #pricing {
+            background-image: url("images/PriceBack.png");
+            color: rgb(5, 0, 0);
+        }
+        #contact {
+            background-image: url("images/contBack.avif");
+            outline-color: wheat;
+        }
+        .btn-book {
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .btn-book:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 767.98px) {
+            .jumbotron {
+                padding: 1rem;
+                text-align: center;
+            }
+            .jumbotron h1 {
+                font-size: 1.75rem;
+            }
+            .jumbotron p {
+                font-size: 1rem;
+            }
+            .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .footer {
+                padding: 0.5rem;
+                font-size: 0.875rem;
+            }
+            .navbar-brand {
+                font-size: 1.25rem;
+            }
+            .nav-link {
+                font-size: 0.875rem;
+            }
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">   ‌  VI Café</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">PRICING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header id="head" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="display-4">Welcome to VI Café</h1>
+            <p class="lead">Bless your taste buds with delicious foods.</p>
+        </div>
+    </header>
+    <section id="home">
+    <main class="container">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>SPECIAL & DELICIOUS FOOD.</h2>
+            <br>
+            <p class="lead">The aromatic flavoures of India on a plate.</p>
+            <p>All these flavoures you'll get inside our gate.</p>
+            <p><a class="btn btn-book" href="#pricing">Book Your Table Now</a>        <a class="btn btn-book" href="#pricing">Order Food Online.</a></p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </main>
+</section>
+    <section id="menu">
+        <br>
+        <br>
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>MENU</h2>
+                <br>
+                <br>
+                <h4><img src = "C:\Users\Thinad\Downloads\Burger.jpg" width="250" height="auto"><br>BURGER (Code: 01)</h4>
+                <h4><img src = "C:\Users\Thinad\Downloads\PIZZA.jpeg" width="250" height="auto"><br>PIZZA (Code: 02)</h4>
+                <h4><img src = "C:\Users\Thinad\Downloads\SANDWICH.jpg" width="250" height="auto"><br>SANDWICH (Code: 03)</h4>
+                <h4><img src = "C:\Users\Thinad\Downloads\PASTERY.jpg" width="250" height="auto"><br>PASTERY (Code: 04)</h4>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-4">
+                <h2>DRINKS</h2>
+                <br>
+                <br>
+                <h4><img src = "C:\Users\Thinad\Downloads\coffee.avif" width="250" height="auto"><br>COFFEE (Code: 05)</h4>
+                <h4><img src = "C:\Users\Thinad\Downloads\tea.jpeg" width="250" height="auto"><br>TEA (Code: 06)</h4>
+                <h4><img src = "C:\Users\Thinad\Downloads\MILKSHAKE.jpeg" width="250" height="auto"><br>MILKSHAKE (Code: 07)</h4>
+                <h4><img src = "C:\Users\Thinad\Downloads\COCKTAIL.jpg" width="250" height="auto"><br>COCKTAIL (Code: 08)</h4>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <marquee width="100%" direction="right" height="100px">
+            Book a Table or Order Food now to get 30% off on Total Bill.
+        </marquee>
+    </div>
+    <br>
+    <br>
+    </section>
+    <section id="pricing">
+        <br>
+        <br>
+
+        <div class="container">
+            <h2>PRICING</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Order Your Food</h3>
+                    <form id="orderForm">
+                        <h5>Full Name <input type="text" id="name" placeholder="Enter your Name"></h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>Food Items</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Burger" data-price="60" class="item-checkbox">
+                                                BURGER - ₹ 60
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Burger">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Pizza" data-price="140" class="item-checkbox">
+                                                PIZZA - ₹ 140
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Pizza">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Sandwich" data-price="40" class="item-checkbox">
+                                                SANDWICH - ₹ 40
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Sandwich">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Pastry" data-price="50" class="item-checkbox">
+                                                PASTERY - ₹ 50
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Pastry">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <h4>Drinks</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Coffee" data-price="70" class="item-checkbox">
+                                                COFFEE - ₹ 70
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Coffee">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Tea" data-price="40" class="item-checkbox">
+                                                TEA - ₹ 40     ‌  ‌  ‌  ‌ 
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Tea">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Milkshake" data-price="80" class="item-checkbox">
+                                                MILKSHAKE - ₹ 80
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Milkshake">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="checkbox" name="item" value="Cocktail" data-price="60" class="item-checkbox">
+                                                COCKTAIL - ₹ 60
+                                            </label>
+                                            <label>
+                                                Quantity: <input type="number" name="quantity" value="0" min="0" class="item-quantity" data-item="Cocktail">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-book" onclick="generateBill()">Generate Bill</button>
+                    </form>
+                    <h4 id="billTitle">Your Bill</h4>
+                    <p id="billAmount">Total: ₹ 0</p>
+                    <button class="btn btn-book" onclick="orderFood()">Order Food</button>
+                </div>
+                <div class="col-md-4">
+                    <h3>Book a Table</h3>
+                    <br>
+                    <form>
+                        <h5>Full Name  <br><input type="text" id="name" placeholder="Enter your Name"></h5>
+                        <h5>No. of Guests <input type="text" id="seat" placeholder="Enter no.of guests visiting"></h5>
+                        <form id="hall">
+                        <h5><input type="radio" name="hall" value="ac" />  A/C </h5>
+                        <h5><input type="radio" name="hall" value="nac" />  Non A/C </h5>
+                        </form>
+                        <br>
+                        <button type="button" class="btn btn-book" onclick="tableBook()">Book Your Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </section> 
+    <section id="contact">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>CONTACT US</h2>
+            <br>
+            <br>
+            <p><img src = "C:\Users\Thinad\Downloads\mail.png" width="15" height="auto">  E-mail Us at <a href="mailto:vicafe@gmail.com">vicafe@gmail.com</a>.</p>
+            <p><img src = "C:\Users\Thinad\Downloads\call.png" width="15" height="auto">  Call Us at <a href="callto:+91 7975089213">+91 7975089213</a>.</p>
+            <p><img src = "C:\Users\Thinad\Downloads\loc.png" width="15" height="auto"> Location <a target="_blank" href="https://www.google.com/maps/place/Presidency+University/@13.1717796,77.5335846,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae21be4ad63a55:0x1008adb771c3d236!8m2!3d13.1717796!4d77.5361595!16s%2Fg%2F11bwkdmrq0?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D">Presidency University</a>.</p>            
+            <p><a class="nav-link" href="#head"><img src = "C:\Users\Thinad\Downloads\web.png" width="15" height="auto"> Website VI Café.</a></p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        
+        <br>
+    </section>
+    <footer class="footer bg-light">
+        <div class="container">
+            <span class="text-muted">&copy; 2024 VI Café. All rights reserved.</span>
+            <p id = "date-time"></p>
+        </div>        
+    </footer>
+    <script>
+        function generateBill() {
+    const checkboxes = document.querySelectorAll('input.item-checkbox:checked');
+    let total = 0;
+    let items = [];
+
+    checkboxes.forEach(checkbox => {
+        const itemName = checkbox.value;
+        const itemPrice = parseFloat(checkbox.getAttribute('data-price'));
+        const quantityInput = document.querySelector(`input.item-quantity[data-item="${itemName}"]`);
+        const quantity = parseInt(quantityInput.value, 10);
+
+        if (quantity > 0) {
+            const itemTotal = itemPrice * quantity;
+            total += itemTotal;
+            items.push(`${itemName} (${quantity} @ $${itemPrice} each): $${itemTotal}`);
+        }
+    });
+
+    const billTitle = document.getElementById('billTitle');
+    const billAmount = document.getElementById('billAmount');
+    
+    billTitle.textContent = "Your Bill";
+    billAmount.textContent = `Total: ₹${total.toFixed(2)}`;
+
+    console.log(items);
+    }
+
+    function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+    }
+    
+        function orderFood(){
+            var nameInput = document.getElementById('name').value;
+            const randomInt = getRandomInt(101, 999);
+            alert("Thank you " + nameInput + " for Choosing Us.\nYour Order of " + billAmount.textContent + " with order id : " + randomInt + " will be ready soon.\nEnjoy Food.");
+        }
+        function tableBook(){
+            var nameInput = document.getElementById('name').value;
+            var seatInput = document.getElementById('seat').value;
+            alert("Thank you " + nameInput + " for Choosing Us.\nYour Table is Booked for " + seatInput + " members.\nVisit Again.");
+        }
+        
+        function updateDateTime() {
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+        document.getElementById('date-time').textContent = now.toLocaleDateString('en-US', options);
+        }
+        setInterval(updateDateTime, 1000);
+        window.onload = updateDateTime;
+    </script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
